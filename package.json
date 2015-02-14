@@ -1,0 +1,32 @@
+{
+  "author": "David Oliveira <d.oliveira@prozone.org>",
+  "name": "whatodo",
+  "description": "A TODO list manager",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "git@git.gitlab.intra.sapo.pt:conduto/sapo-nodelib.git"
+  },
+  "bin": {
+    "server": "bin/server.js"
+  },
+  "dependencies": {
+    "async": ">=0.9.0"
+  },
+  "devDependencies": {},
+  "optionalDependencies": {},
+  "license": "Copyright",
+  "engines": {
+    "node": ">=0.10.5"
+  },
+  "scripts": {
+	"test" : "./run_tests"
+  },
+  "keywords": [
+    "whatodo",
+    "tasks",
+    "todo",
+    "todo list",
+    "todolist"
+  ]
+}
